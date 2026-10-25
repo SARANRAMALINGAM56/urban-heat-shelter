@@ -211,50 +211,8 @@ Measure these during testing rather than claiming unverified results:
 - A tabletop prototype does not establish real-world cooling performance, structural safety, weather resistance, or public-use readiness.
 - Final pin mapping, current ratings, thresholds, and mechanical dimensions must be verified during implementation.
 
-## 15. Future Improvements
 
-- Add a more appropriate occupancy sensor or sensor fusion for stationary occupants.
-- Add a validated heat-stress measurement approach if WBGT or another formal index is required.
-- Add wind/rain sensing and a weather-safe roof position.
-- Add water-level sensing and a filter/service indicator for the misting system.
-- Add data logging and an IoT dashboard after the local control system is reliable.
-- Consider solar power only after measuring the actual energy budget.
-- Conduct supervised outdoor trials and document results before proposing public deployment.
-
-## 16. Sustainability and Intended Impact
+## 15. Sustainability and Intended Impact
 
 The project is intended to contribute to more heat-resilient public spaces by combining adaptive shade, ventilation, and conditional misting. It aligns conceptually with **UN Sustainable Development Goal 11 (Sustainable Cities and Communities)** and **SDG 13 (Climate Action)**. The degree of impact must be evaluated through measured prototype and field-test data.
 
-## 17. Repository Structure
-
-Suggested repository layout:
-
-```text
-adaptive-urban-heat-shelter/
-├── README.md
-├── docs/
-│   ├── system-architecture.png
-│   ├── schematic.png
-│   ├── user-journey-before-after.png
-│   └── safety-review.png
-├── hardware/
-│   ├── bill-of-materials.csv
-│   └── wiring-notes.md
-├── firmware/
-│   └── README.md
-├── tests/
-│   └── test-plan.md
-└── LICENSE
-```
-
-Only add files that actually exist. Export your final Fusion schematic as a PNG or PDF and place it in `docs/`. Put the Arduino firmware in `firmware/` once it has been tested.
-
-## 18. Current Status and Contributions
-
-**Current stage:** Architecture and schematic planning for a tabletop prototype.
-
-Contributions and feedback are welcome. Please open an issue describing the proposed change, hardware assumptions, and how it can be tested.
-
-## 19. License
-
-Choose a license before publishing. For example, MIT is a common option for open-source code; hardware design files may need a license suited to hardware. Do not claim a license until the repository includes the corresponding license file.
